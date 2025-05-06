@@ -116,6 +116,9 @@ export const Header = () => {
             >
               المقالات
             </Link>
+            <Link to="/login" className="text-foreground py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>
+              لوحة التحكم
+            </Link>
             <Button className="w-full mt-4" asChild>
               <Link to="/consult">طلب استشارة</Link>
             </Button>
